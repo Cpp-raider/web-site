@@ -1,13 +1,13 @@
 const url = location.href;
 
 function changeLang(obj) {
-    if (url == "https://www.ccp-raider.ml/index.html") {
+    console.log(location.pathname);
+    if (location.pathname == "/index.html") {
         if (obj.value == "ja") {
-            document.location.href = "https://www.ccp-raider.ml/ja/index.html";
+            document.location.pathname = "/ja/index.html";
 
         } else if (obj.value == "en") {
-            document.location.href = "https://www.ccp-raider.ml/en/index.html";
-
+            document.location.href = "/en/index.html";
         }
 
         return;
