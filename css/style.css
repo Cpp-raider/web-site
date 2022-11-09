@@ -29,8 +29,13 @@ header {
 #global-nav {
     float: right;
     margin-top: 60px;
-    margin-left: 20px;
     font-size: 20px;
+}
+
+#global-nav li {
+    float: left;
+    margin-left: 20px;
+    list-style: none;
 }
 
 a {
@@ -74,6 +79,12 @@ body {
     border-radius: 8px;
     box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.4);
     font-size: 25px;
+}
+
+#select {
+    float: right;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 #index .button {
