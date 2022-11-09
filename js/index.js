@@ -1,8 +1,7 @@
 const url = location.href;
 
 function changeLang(obj) {
-    console.log(location.pathname);
-    if (location.pathname == "/index.html") {
+    if (location.pathname == "/index.html" || location.pathname == "") {
         if (obj.value == "ja") {
             document.location.pathname = "/ja/index.html";
 
