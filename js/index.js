@@ -3,7 +3,7 @@ const url = location.href;
 function changeLang(obj) {
     if (location.pathname == "/index.html" || location.pathname == "/") {
         if (obj.value == "ja") {
-            document.location.pathname = "/ja/index.html";
+            document.location.href = "/ja/index.html";
 
         } else if (obj.value == "en") {
             document.location.href = "/en/index.html";
