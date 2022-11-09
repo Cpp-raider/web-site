@@ -8,7 +8,6 @@ function changeLang(obj) {
 
         } else if (obj.value == "en") {
             document.location.href = "/en/index.html";
-
         }
 
         return;
